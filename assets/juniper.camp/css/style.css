@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Fredoka One';
+  src: url('FredokaOne-Regular.ttf') format('truetype');
+}
+
+a {
+  color: #bcc3f2;
+}
+
+a:visited {
+  color: #ffd65b;
+}
+
+body {
+  background-color: #6880bc;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 650px;
+  text-align: center;
+}
+
+.logo {
+  display: inline-flex;
+  margin-top: 1rem;
+}
+
+.logo img {
+  width: 100px;
+  border: solid 12px #bcc3f2;
+  border-radius: 9px;
+  box-shadow: 0 1px 3px #392f04;
+}
+
+.logo h1 {
+  font-family: 'Fredoka One';
+  font-size: 4rem;
+  margin: auto 1rem;
+  color: #bcc3f2;
+  text-shadow: 0 1px 3px #392f04;
+  letter-spacing: 0.125rem;
+}
+
+.description {
+  text-align: left;
+  font-size: 1.275rem;
+  line-height: 2rem;
+  color: #051437;
+}
+
+.description h1 {
+  margin-top: 2.75rem;
+}
+
+.joiner form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.joiner input[type="email"] {
+  background: #6880bc;
+  padding: 1rem;
+  font-size: 1.275rem;
+  border: solid 12px #bcc3f2;
+  border-radius: 9px;
+  margin-right: 1rem;
+}
+
+.joiner input[type="submit"] {
+  background: #132b68;
+  font-size: 1.4rem;
+  border-radius: 9px;
+  border: solid 9px #132b68;
+  padding: 12px;
+  color: #bcc3f2;
+}
+
+.joiner input[type="submit"]:hover {
+  border: solid 9px #bcc3f2;
+  transition: all 0.125s ease-in;
+  cursor: pointer;
+}
+
+.joiner input[type="submit"]:active {
+  border: solid 9px #ffd65b;
+}
+
+.joiner input[type="email"]:disabled,
+.joiner input[type="submit"]:disabled {
+  background-color: #6880bc;
+  color: #132b68;
+  border-color: #8397ca;
+  cursor: not-allowed;
+}
+
+.form-submission {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 9px;
+}
+
+.form-submission p {
+  margin: 0;
+}
+
+.form-submission.form-success {
+  background: #ffefaf;
+  color: #3c2a00;
+}
+
+.form-submission.form-error {
+  background-color: #ffa1a1;
+  color: #661c1c;
+}
+
+.form-submission .form-message-success,
+.form-submission .form-message-error {
+  display: none;
+  line-height: 1rem;
+}
+
+.form-submission.form-success .form-message-success,
+.form-submission.form-error .form-message-error {
+  display: block;
+}
+
+@media (max-width: 750px) {
+  .logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo img {
+    margin: auto;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .joiner input[type="email"],
+  .joiner input[type="submit"] {
+    width: 100%;
+  }
+
+  .joiner input[type="email"] {
+    margin: 0;
+  }
+
+  .joiner input[type="submit"] {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 515px) {
+  .logo h1 {
+    margin-top: 1rem;
+  }
+}

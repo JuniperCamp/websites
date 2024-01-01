@@ -1,8 +1,6 @@
-# Welcome to your CDK TypeScript project
+## Home to Juniper Camp's static websites CDK
 
-This is a blank project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This repo currently hosts juniper.camp and naturism.is through Amazon S3 and CloudFront.
 
 ## Useful commands
 

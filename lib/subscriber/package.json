@@ -1,5 +1,5 @@
 {
-  "name": "subscribe",
+  "name": "subscriber",
   "version": "0.0.1",
   "description": "Subscribe users for juniper.camp",
   "main": "AddSubscriber.js",
